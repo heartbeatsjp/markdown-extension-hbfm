@@ -4,8 +4,6 @@ python:
   - "3.5"
 install:
   - pip install --upgrade pip
-  - grep -v Markdown requirements_dev.txt > requirements_tmp.txt
-  - pip install -r requirements_tmp.txt
   - pip install -r requirements_dev.txt
 script:
   - nosetests -v
