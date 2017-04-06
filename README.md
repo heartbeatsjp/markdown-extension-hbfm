@@ -5,6 +5,13 @@ HEARTBEATS Fravored Markdown extension
 - Inline List
 - Cross Reference
 
+How to install:
+
+```
+pip install -e "git+https://github.com/heartbeatsjp/markdown-extension-hbfm.git#egg=hbfm"
+```
+
+
 # Inline Coloring
 
 ```
