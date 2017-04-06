@@ -1,6 +1,8 @@
 HEARTBEATS Fravored Markdown extension
 =========================================
 
+[![Build Status](https://travis-ci.org/heartbeatsjp/markdown-extension-hbfm.svg?branch=master)](https://travis-ci.org/heartbeatsjp/markdown-extension-hbfm)
+
 - Inline Coloring
 - Inline List
 - Cross Reference
