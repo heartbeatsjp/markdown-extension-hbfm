@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="hbfm",
-    version="0.0.1",
+    version="0.0.3",
     description="HEARTBEATS Frafored Markdown extensions",
     author="Toshiaki Baba",
     author_email="toshiaki@netmark.jp",

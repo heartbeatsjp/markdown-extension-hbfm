@@ -10,7 +10,7 @@ HEARTBEATS Fravored Markdown extension
 How to install:
 
 ```
-pip install -e "git+https://github.com/heartbeatsjp/markdown-extension-hbfm.git#egg=hbfm"
+pip install hbfm
 ```
 
 
