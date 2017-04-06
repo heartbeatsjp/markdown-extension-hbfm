@@ -49,6 +49,8 @@ class NumberHeadersPreprocessor(Preprocessor):
         def replace(m):
             text = m.groups()[0]
             link = m.groups()[1]
+            if text not in section_number.keys():
+                print(u"ERROR: Section title {} not found".format(text))
             return "[%s. %s](#%s)" % (section_number[text], text, link)
 
         renew_lines = []
