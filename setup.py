@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="hbfm",
     version="0.0.3",
-    description="HEARTBEATS Frafored Markdown extensions",
+    description="HEARTBEATS Flavored Markdown extensions",
     author="Toshiaki Baba",
     author_email="toshiaki@netmark.jp",
     url="https://github.com/heartbeatsjp/markdown-extension-hbfm",
