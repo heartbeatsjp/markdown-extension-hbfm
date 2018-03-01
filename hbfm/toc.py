@@ -1,6 +1,9 @@
 # coding: utf-8
 
-import urllib2
+try:
+    import urllib2
+except ImportError:
+    import urllib.parse as urllib2
 import re
 
 
