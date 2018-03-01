@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
-import urllib2
+try:
+    import urllib2
+except ImportError:
+    import urllib.parse as urllib2
 from markdown.preprocessors import Preprocessor
 from markdown.extensions import Extension
 
